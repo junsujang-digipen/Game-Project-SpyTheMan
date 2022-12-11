@@ -1,0 +1,85 @@
+{ "frames": {
+   "0": {
+    "frame": { "x": 0, "y": 0, "w": 3000, "h": 1500 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 3000, "h": 1500 },
+    "sourceSize": { "w": 3000, "h": 1500 },
+    "duration": 100
+   },
+   "1": {
+    "frame": { "x": 0, "y": 1500, "w": 3000, "h": 1500 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 3000, "h": 1500 },
+    "sourceSize": { "w": 3000, "h": 1500 },
+    "duration": 100
+   },
+   "2": {
+    "frame": { "x": 0, "y": 3000, "w": 3000, "h": 1500 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 3000, "h": 1500 },
+    "sourceSize": { "w": 3000, "h": 1500 },
+    "duration": 100
+   },
+   "3": {
+    "frame": { "x": 0, "y": 4500, "w": 3000, "h": 1500 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 3000, "h": 1500 },
+    "sourceSize": { "w": 3000, "h": 1500 },
+    "duration": 100
+   },
+   "4": {
+    "frame": { "x": 0, "y": 6000, "w": 3000, "h": 1500 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 3000, "h": 1500 },
+    "sourceSize": { "w": 3000, "h": 1500 },
+    "duration": 100
+   },
+   "5": {
+    "frame": { "x": 0, "y": 7500, "w": 3000, "h": 1500 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 3000, "h": 1500 },
+    "sourceSize": { "w": 3000, "h": 1500 },
+    "duration": 100
+   },
+   "6": {
+    "frame": { "x": 0, "y": 9000, "w": 3000, "h": 1500 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 3000, "h": 1500 },
+    "sourceSize": { "w": 3000, "h": 1500 },
+    "duration": 100
+   },
+   "7": {
+    "frame": { "x": 0, "y": 10500, "w": 3000, "h": 1500 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 3000, "h": 1500 },
+    "sourceSize": { "w": 3000, "h": 1500 },
+    "duration": 100
+   }
+ },
+ "meta": {
+    "image": "dead.png",
+    "framecount": 8
+   },
+ "anim": [
+   {
+      "loop": {"looping": false, "loopnum": 0},
+      "end": true,
+      "start": 0,
+      "finish": 7
+   },
+   {
+      "loop": {"looping": true, "loopnum": 0},
+      "end": true,
+      "start": 7,
+      "finish": 7
+   }
+ ]
+}

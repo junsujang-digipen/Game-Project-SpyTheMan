@@ -1,0 +1,31 @@
+{
+	"CLEAR" : false,
+	"STAGE" : 
+	[
+		{
+			"CLEAR" : false,
+			"NAME" : "Tutorial",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Drone",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Cloth",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "SearchAndDisguise1",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "SearchAndDisguise2",
+			"TIME" : 0.0
+		}
+	]
+}

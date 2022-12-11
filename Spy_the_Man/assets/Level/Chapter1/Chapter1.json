@@ -1,0 +1,31 @@
+{
+	"CLEAR" : false,
+	"STAGE" : 
+	[
+		{
+			"CLEAR" : false,
+			"NAME" : "Wait",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Find the Outside1",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Find the Outside2",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Where am I1",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Where am I2",
+			"TIME" : 0.0
+		}
+	]
+}

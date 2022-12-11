@@ -1,0 +1,207 @@
+Producer
+Seongwon Jang
+
+Lead Designer
+Dong-A Choi
+
+Technical Director
+Sangbeom Kim
+
+Test manager
+Junsu Jang
+
+Images
+
+Scene City Backgrounds
+Author: byKGF
+Link: https://bykgf.itch.io/skycraper-parallax
+
+Stair Image
+Author: Sangbeom Kim
+
+Assassination button Image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/knife_620270?term=knife&page=1&position=2&page=1&position=2&related_id=620270&origin=tag
+
+Dissguise buttonimage
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/disguise_1439107
+
+Door button image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/open-exit-door_59801
+
+Setting button image
+Author: Pixel perfect
+Link: https://www.flaticon.com/free-icon/settings_3524659?term=setting&page=1&position=1&page=1&position=1&related_id=3524659&origin=search
+
+Get button image
+Author: Tomas Knop
+Link: https://www.flaticon.com/kr/free-icon/get-money_546514
+
+Hide button image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/settings_3524659?term=setting&page=1&position=1&page=1&position=1&related_id=3524659&origin=search
+
+Vent button image
+Author: Smashicons
+Link: https://www.flaticon.com/premium-icon/ventilation_3651043?term=vent&page=1&position=10&page=1&position=10&related_id=3651043&origin=search
+
+Closet image
+Author: Sangbeom Kim
+
+Clothes image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/casual-t-shirt_107499?term=clothes&page=1&position=10&page=1&position=10&related_id=107499&origin=tag
+
+Switch on off image
+Author: Pixel perfect
+Link: https://www.flaticon.com/free-icon/turn-on_3524723?related_id=3524723&origin=search
+
+NPC head icons
+Author: Sangbeom Kim
+
+Up,down arrow image
+Author: Roundicons
+Link: https://www.flaticon.com/free-icon/up-arrow_271239?term=up&page=1&position=7&page=1&position=7&related_id=271239&origin=search
+
+Power button image
+Author: Uniconlabs
+Link: https://www.flaticon.com/premium-icon/power-on_3288002?term=power&page=1&position=57&page=1&position=57&related_id=3288002&origin=search
+
+To level select button images
+Author: Seongwon Jang
+
+To next level button image
+Author: Seongwon Jang
+
+Replay button image
+Author: Seongwon Jang
+
+Cameleon skill image
+Author: Vitaly Gorbachev
+Link: https://www.flaticon.com/free-icon/chameleon_2301639?term=chameleon&related_id=2301639
+
+Silent run skill image
+Author: M Karruly
+Link: https://www.flaticon.com/free-icon/silence_7043511?term=quiet&page=1&position=1&page=1&position=1&related_id=7043511&origin=search
+
+Assassinate skill image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/knife_95605?term=knife&page=1&position=13&page=1&position=13&related_id=95605&origin=search
+
+Slow trap skill image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/trap_4293754?term=trap&page=1&position=2&page=1&position=2&related_id=4293754&origin=search
+
+Detact skill image
+Author: Vector Stall
+Link: https://www.flaticon.com/premium-icon/radar-point_5802242?term=radar&page=1&position=17&page=1&position=17&related_id=5802242&origin=search
+
+Push skill image
+Author: Freepik
+Link: https://www.flaticon.com/premium-icon/wind_2057945?term=wind&page=1&position=6&page=1&position=6&related_id=2057945&origin=search
+
+Dash skill image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/shoes_4598559?term=run&page=1&position=23&page=1&position=23&related_id=4598559&origin=search
+
+Dron skill image
+Author: Hyunjin Kim
+
+Flash bomb skill image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/flash_2706920?term=flash&page=1&position=14&page=1&position=14&related_id=2706920&origin=search
+
+Visualize skill image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/witness_2210317?term=witness&page=1&position=1&page=1&position=1&related_id=2210317&origin=search
+
+Invisible skill image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/disappear_6179661?term=disappear&page=1&position=5&page=1&position=5&related_id=6179661&origin=search
+
+Key image
+Author: Freepik
+Link: https://www.flaticon.com/premium-icon/key_807241?term=key&page=1&position=2&page=1&position=2&related_id=807241&origin=search
+
+MegaPhone image
+Author: Freepik
+Link: https://www.flaticon.com/free-icon/megaphone_596041?term=loud%20speaker&page=1&position=3&page=1&position=3&related_id=596041&origin=search
+
+Player&NPC image
+Author: Sangbeom Kim
+
+Project Morning LOGO
+Author: Hyunjin Kim
+
+Title image
+Author: Seongwon Jang
+
+Vent door image
+Author: Sangbeom Kim
+
+Sounds
+
+Heartbeat sound
+Author: InspectorJ
+Link: https://www.gamedevmarket.net/asset/sfx-essentials-09-heartbeat/
+
+rootClear sound
+Author: ViRiX
+Link: https://opengameart.org/content/ui-and-item-sound-effect-jingles-sample-2
+
+Menu2A.wav
+Author: ViRiX
+Link: https://opengameart.org/content/ui-and-item-sound-effect-jingles-sample-2
+
+stepstone_3.wav
+Author: Jute
+Link: https://opengameart.org/content/foot-walking-step-sounds-on-stone-water-snow-wood-and-dirt
+
+wind_4.wav
+Author: Jute
+Link: https://opengameart.org/content/thunder-rain-and-wind
+
+leather_inventory.wav 
+Author: artisticdude
+Link: https://opengameart.org/content/inventory-sound-effects
+
+fall.wav
+Author: Jute
+Link: https://opengameart.org/content/items-door-fire-weapon-hits
+
+wscream_2.wav
+Author: Fernando Carmona
+Link: https://opengameart.org/content/girly-scream
+
+bgm_8.wav
+Author: GameSupplyGuy
+Link: https://gamesupply.itch.io/33-game-background-music?download
+
+bgm_16.wav
+Author: GameSupplyGuy
+Link: https://gamesupply.itch.io/33-game-background-music?download
+
+bgm_20.wav
+Author: GameSupplyGuy
+Link: https://gamesupply.itch.io/33-game-background-music?download
+
+01 The Treasure.wav
+Author: Make a Game
+Link: https://snabisch.itch.io/sixty-minutes-free-music
+
+bgm_4.wav
+Author: GameSupplyGuy
+Link: https://gamesupply.itch.io/33-game-background-music?download
+
+15 The Restless Chicken.wav
+Author: Make a Game
+Link: https://snabisch.itch.io/sixty-minutes-free-music
+
+Some of the sounds in this project were created by 
+ViRiX Dreamcore soundcloud.com/virix
+
+Special Thanks
+Hyunjin Kim
+Sehun Kim

@@ -1,0 +1,31 @@
+{
+	"CLEAR" : false,
+	"STAGE" : 
+	[
+		{
+			"CLEAR" : false,
+			"NAME" : "Push1",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Push2",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Get Out1",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Get Out2",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Get Out3",
+			"TIME" : 0.0
+		}
+	]
+}

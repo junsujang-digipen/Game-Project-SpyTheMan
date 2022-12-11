@@ -1,0 +1,31 @@
+{
+	"CLEAR" : false,
+	"STAGE" : 
+	[
+		{
+			"CLEAR" : false,
+			"NAME" : "Flash",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Stun",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Slow",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Mess",
+			"TIME" : 0.0
+		},
+		{
+			"CLEAR" : false,
+			"NAME" : "Mess2",
+			"TIME" : 0.0
+		}
+	]
+}

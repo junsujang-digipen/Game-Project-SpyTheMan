@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Animation.cpp" />
+    <ClCompile Include="Engine\Camera.cpp" />
+    <ClCompile Include="Engine\Collision.cpp" />
+    <ClCompile Include="Engine\Effect\Effect.cpp" />
+    <ClCompile Include="Engine\Effect\EffectManager.cpp" />
+    <ClCompile Include="Engine\Effect\Particle.cpp" />
+    <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\Entity.cpp" />
+    <ClCompile Include="Engine\Font.cpp" />
+    <ClCompile Include="Engine\GameObject.cpp" />
+    <ClCompile Include="Engine\GameObjectManager.cpp" />
+    <ClCompile Include="Engine\GameStateManager.cpp" />
+    <ClCompile Include="Engine\glslshader.cpp" />
+    <ClCompile Include="Engine\Input.cpp" />
+    <ClCompile Include="Engine\IOManager\ChapterData.cpp" />
+    <ClCompile Include="Engine\IOManager\LevelIOManager.cpp" />
+    <ClCompile Include="Engine\IOManager\lib_json\json_reader.cpp" />
+    <ClCompile Include="Engine\IOManager\lib_json\json_value.cpp" />
+    <ClCompile Include="Engine\IOManager\lib_json\json_writer.cpp" />
+    <ClCompile Include="Engine\IOManager\ObjectData.cpp" />
+    <ClCompile Include="Engine\Logger.cpp" />
+    <ClCompile Include="Engine\NPC_base.cpp" />
+    <ClCompile Include="Engine\Poodle.cpp" />
+    <ClCompile Include="Engine\Sequence\SequenceManager.cpp" />
+    <ClCompile Include="Engine\Sequence\Sequence_base.cpp" />
+    <ClCompile Include="Engine\ShowCollision.cpp" />
+    <ClCompile Include="Engine\Skill\SkillBase.cpp" />
+    <ClCompile Include="Engine\Skill\SkillManager.cpp" />
+    <ClCompile Include="Engine\SoundManager.cpp" />
+    <ClCompile Include="Engine\Sprite.cpp" />
+    <ClCompile Include="Engine\Texture.cpp" />
+    <ClCompile Include="Engine\TextureManager.cpp" />
+    <ClCompile Include="Engine\TransformMatrix.cpp" />
+    <ClCompile Include="Engine\UI\Button.cpp" />
+    <ClCompile Include="Engine\UI\Mouse.cpp" />
+    <ClCompile Include="Engine\UI\Text.cpp" />
+    <ClCompile Include="Engine\UI\Image.cpp" />
+    <ClCompile Include="Engine\UI\UIEntity.cpp" />
+    <ClCompile Include="Engine\UI\UIManager.cpp" />
+    <ClCompile Include="Engine\Wave.cpp" />
+    <ClCompile Include="Engine\Window.cpp" />
+    <ClCompile Include="Engine\World.cpp" />
+    <ClCompile Include="Game\Building.cpp" />
+    <ClCompile Include="Game\Basic_NPC.cpp" />
+    <ClCompile Include="Game\Credit.cpp" />
+    <ClCompile Include="Game\Drone.cpp" />
+    <ClCompile Include="Game\LevelSelect.cpp" />
+    <ClCompile Include="Game\LevelSoundManager.cpp" />
+    <ClCompile Include="Game\Enemy_soldier_AI.cpp" />
+    <ClCompile Include="Game\Enemy_soldier_senior_AI.cpp" />
+    <ClCompile Include="Game\GSButtonManager.cpp" />
+    <ClCompile Include="Game\ClearManager.cpp" />
+    <ClCompile Include="Game\LevelEditor.cpp" />
+    <ClCompile Include="Game\Level\LoadLevel.cpp" />
+    <ClCompile Include="Game\Level\Tuto.cpp" />
+    <ClCompile Include="Game\Lazer.cpp" />
+    <ClCompile Include="Game\MainMenu.cpp" />
+    <ClCompile Include="Game\Master_AI.cpp" />
+    <ClCompile Include="Game\NPC_Worker_AI.cpp" />
+    <ClCompile Include="Game\Object\Action\Action.cpp" />
+    <ClCompile Include="Game\Object\Action\ActionManager.cpp" />
+    <ClCompile Include="Game\Object\ActivateVision.cpp" />
+    <ClCompile Include="Game\Object\ButtonManager.cpp" />
+    <ClCompile Include="Game\Object\Clothes.cpp" />
+    <ClCompile Include="Game\Object\Find.cpp" />
+    <ClCompile Include="Game\Object\Flashbomb.cpp" />
+    <ClCompile Include="Game\Object\Hide_Obj.cpp" />
+    <ClCompile Include="Game\Object\Push.cpp" />
+    <ClCompile Include="Game\Object\Key.cpp" />
+    <ClCompile Include="Game\Object\Room.cpp" />
+    <ClCompile Include="Game\Object\Goal.cpp" />
+    <ClCompile Include="Game\Object\SideDoor.cpp" />
+    <ClCompile Include="Game\Object\Stair.cpp" />
+    <ClCompile Include="Game\Object\Switch.cpp" />
+    <ClCompile Include="Game\Object\Trap.cpp" />
+    <ClCompile Include="Game\Object\Vent.cpp" />
+    <ClCompile Include="Game\Object\Wall.cpp" />
+    <ClCompile Include="Game\Player.cpp" />
+    <ClCompile Include="Game\Sequence\ChameleonSequence.cpp" />
+    <ClCompile Include="Game\Sequence\DashSequence.cpp" />
+    <ClCompile Include="Game\Sequence\DroneSequence.cpp" />
+    <ClCompile Include="Game\Sequence\EtcSequence.cpp" />
+    <ClCompile Include="Game\Sequence\FindSequence.cpp" />
+    <ClCompile Include="Game\Sequence\Flashbombsequence.cpp" />
+    <ClCompile Include="Game\Sequence\GetInSequence.cpp" />
+    <ClCompile Include="Game\Sequence\GetItemSequence.cpp" />
+    <ClCompile Include="Game\Sequence\GetOutSequence.cpp" />
+    <ClCompile Include="Game\Sequence\HideSequence.cpp" />
+    <ClCompile Include="Game\Sequence\InvisibleSequence.cpp" />
+    <ClCompile Include="Game\Sequence\KillAISequence.cpp" />
+    <ClCompile Include="Game\Sequence\MoveStairSequence.cpp" />
+    <ClCompile Include="Game\Sequence\MoveVentSequence.cpp" />
+    <ClCompile Include="Game\Sequence\NPC_OpenDoorSequence.cpp" />
+    <ClCompile Include="Game\Sequence\OpenDoorSequence.cpp" />
+    <ClCompile Include="Game\Sequence\PushSequence.cpp" />
+    <ClCompile Include="Game\Sequence\Sequence_example.cpp" />
+    <ClCompile Include="Game\Sequence\SilentRunSequence.cpp" />
+    <ClCompile Include="Game\Sequence\TrapSequence.cpp" />
+    <ClCompile Include="Game\Sequence\TurnOnSoundSequence.cpp" />
+    <ClCompile Include="Game\Sequence\VisualSequence.cpp" />
+    <ClCompile Include="Game\SkillChoose.cpp" />
+    <ClCompile Include="Game\SpeedUp_Sequence.cpp" />
+    <ClCompile Include="Game\Splash.cpp" />
+    <ClCompile Include="Game\Task_AI_basePosition.cpp" />
+    <ClCompile Include="Game\Task_AI_pointToPoint.cpp" />
+    <ClCompile Include="Game\UI\HelpText.cpp" />
+    <ClCompile Include="Game\UI\Phone.cpp" />
+    <ClCompile Include="Game\UI\SkillButton.cpp" />
+    <ClCompile Include="Game\ValidManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\IOManager\ChapterData.h" />
+    <ClInclude Include="Engine\SoundManager.h" />
+    <ClInclude Include="Game\Credit.h" />
+    <ClInclude Include="Game\LevelSelect.h" />
+    <ClInclude Include="Game\LevelSoundManager.h" />
+    <ClInclude Include="Game\GSButtonManager.h" />
+    <ClInclude Include="Game\ClearManager.h" />
+    <ClInclude Include="Game\LevelEditor.h" />
+    <ClInclude Include="Game\Level\LoadLevel.h" />
+    <ClInclude Include="Game\Level\Tuto.h" />
+    <ClInclude Include="Game\Object\ActivateVision.h" />
+    <ClInclude Include="Game\Object\ButtonManager.h" />
+    <ClInclude Include="Game\Object\Clothes.h" />
+    <ClInclude Include="Game\Object\Find.h" />
+    <ClInclude Include="Game\Object\Flashbomb.h" />
+    <ClInclude Include="Game\Object\Hide_Obj.h" />
+    <ClInclude Include="Game\Object\Push.h" />
+    <ClInclude Include="Game\Object\Switch.h" />
+    <ClInclude Include="Game\Object\Trap.h" />
+    <ClInclude Include="Game\Sequence\DashSequence.h" />
+    <ClInclude Include="Game\Sequence\FindSequence.h" />
+    <ClInclude Include="Game\Sequence\FlashbombSequence.h" />
+    <ClInclude Include="Game\Sequence\PushSequence.h" />
+    <ClInclude Include="Game\Sequence\SilentRunSequence.h" />
+    <ClInclude Include="Game\Sequence\TrapSequence.h" />
+    <ClInclude Include="Game\SkillString.h" />
+    <ClInclude Include="Game\UI\HelpText.h" />
+    <ClInclude Include="Game\UI\SkillButton.h" />
+    <ClInclude Include="Engine\AI.h" />
+    <ClInclude Include="Engine\Animation.h" />
+    <ClInclude Include="Engine\Camera.h" />
+    <ClInclude Include="Engine\Collision.h" />
+    <ClInclude Include="Engine\Component.h" />
+    <ClInclude Include="Engine\ComponentManager.h" />
+    <ClInclude Include="Engine\ComponentSpawner.h" />
+    <ClInclude Include="Engine\Declaration.h" />
+    <ClInclude Include="Engine\Effect\Effect.h" />
+    <ClInclude Include="Engine\Effect\EffectManager.h" />
+    <ClInclude Include="Engine\Effect\Particle.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\Entity.h" />
+    <ClInclude Include="Engine\Font.h" />
+    <ClInclude Include="Engine\FSM_base.h" />
+    <ClInclude Include="Engine\GameObject.h" />
+    <ClInclude Include="Engine\GameObjectManager.h" />
+    <ClInclude Include="Engine\GameState.h" />
+    <ClInclude Include="Engine\GameStateManager.h" />
+    <ClInclude Include="Engine\glslshader.h" />
+    <ClInclude Include="Engine\Helper_func_map.h" />
+    <ClInclude Include="Engine\Helper_func_vec.h" />
+    <ClInclude Include="Engine\Input.h" />
+    <ClInclude Include="Engine\Input_GL.h" />
+    <ClInclude Include="Engine\IOManager\LevelIOManager.h" />
+    <ClInclude Include="Engine\IOManager\lib_json\json_tool.h" />
+    <ClInclude Include="Engine\IOManager\ObjectData.h" />
+    <ClInclude Include="Engine\Logger.h" />
+    <ClInclude Include="Engine\NPC_base.h" />
+    <ClInclude Include="Engine\Poodle.h" />
+    <ClInclude Include="Engine\Rect.h" />
+    <ClInclude Include="Engine\Sequence\SequenceManager.h" />
+    <ClInclude Include="Engine\Sequence\Sequence_base.h" />
+    <ClInclude Include="Engine\ShowCollision.h" />
+    <ClInclude Include="Engine\Skill\SkillBase.h" />
+    <ClInclude Include="Engine\Skill\SkillManager.h" />
+    <ClInclude Include="Engine\Sprite.h" />
+    <ClInclude Include="Engine\Texture.h" />
+    <ClInclude Include="Engine\TextureManager.h" />
+    <ClInclude Include="Engine\TransformMatrix.h" />
+    <ClInclude Include="Engine\UI\Button.h" />
+    <ClInclude Include="Engine\UI\Mouse.h" />
+    <ClInclude Include="Engine\UI\Text.h" />
+    <ClInclude Include="Engine\UI\Image.h" />
+    <ClInclude Include="Engine\UI\UIEntity.h" />
+    <ClInclude Include="Engine\UI\UIManager.h" />
+    <ClInclude Include="Engine\Wave.h" />
+    <ClInclude Include="Engine\Window.h" />
+    <ClInclude Include="Engine\World.h" />
+    <ClInclude Include="Game\Building.h" />
+    <ClInclude Include="Game\Basic_NPC.h" />
+    <ClInclude Include="Game\Drone.h" />
+    <ClInclude Include="Game\Enemy_soldier_AI.h" />
+    <ClInclude Include="Game\Enemy_soldier_senior_AI.h" />
+    <ClInclude Include="Game\Lazer.h" />
+    <ClInclude Include="Game\MainMenu.h" />
+    <ClInclude Include="Game\Master_AI.h" />
+    <ClInclude Include="Game\NPC_Worker_AI.h" />
+    <ClInclude Include="Game\Object\Action\Action.h" />
+    <ClInclude Include="Game\Object\Action\ActionManager.h" />
+    <ClInclude Include="Game\Object\Item.h" />
+    <ClInclude Include="Game\Object\Key.h" />
+    <ClInclude Include="Game\Object\Room.h" />
+    <ClInclude Include="Game\Object\Goal.h" />
+    <ClInclude Include="Game\Object\SideDoor.h" />
+    <ClInclude Include="Game\Object\Stair.h" />
+    <ClInclude Include="Game\Object\Vent.h" />
+    <ClInclude Include="Game\Object\Wall.h" />
+    <ClInclude Include="Game\Player.h" />
+    <ClInclude Include="Game\Screens.h" />
+    <ClInclude Include="Game\Sequence\ChameleonSequence.h" />
+    <ClInclude Include="Game\Sequence\DroneSequence.h" />
+    <ClInclude Include="Game\Sequence\EtcSequence.h" />
+    <ClInclude Include="Game\Sequence\GetInSequence.h" />
+    <ClInclude Include="Game\Sequence\GetItemSequence.h" />
+    <ClInclude Include="Game\Sequence\GetOutSequence.h" />
+    <ClInclude Include="Game\Sequence\HideSequence.h" />
+    <ClInclude Include="Game\Sequence\InvisibleSequence.h" />
+    <ClInclude Include="Game\Sequence\KillAISequence.h" />
+    <ClInclude Include="Game\Sequence\MoveStairSequence.h" />
+    <ClInclude Include="Game\Sequence\MoveVentSequence.h" />
+    <ClInclude Include="Game\Sequence\NPC_OpenDoorSequence.h" />
+    <ClInclude Include="Game\Sequence\OpenDoorSequence.h" />
+    <ClInclude Include="Game\Sequence\Sequence_example.h" />
+    <ClInclude Include="Game\Sequence\TurnOnSoundSequence.h" />
+    <ClInclude Include="Game\Sequence\VisualSequence.h" />
+    <ClInclude Include="Game\SkillChoose.h" />
+    <ClInclude Include="Game\SkillType.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Game\SpeedUp_Sequence.h" />
+    <ClInclude Include="Game\Splash.h" />
+    <ClInclude Include="Game\Task_AI_basePosition.h" />
+    <ClInclude Include="Game\Task_AI_pointToPoint.h" />
+    <ClInclude Include="Game\UI\Phone.h" />
+    <ClInclude Include="Game\ValidManager.h" />
+    <ClInclude Include="Game\WorldGuardLevel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\IOManager\lib_json\json_valueiterator.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3A109FC9-E231-43F6-A711-B752B70EFEB7}</ProjectGuid>
+    <RootNamespace>Project Morning</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Spy_the_Man</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\Project_Morning_property1.props" />
+    <Import Project="..\Properties\SFML.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\Project_Morning_property1.props" />
+    <Import Project="..\Properties\SFML_release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype\freetype.lib;sfml-graphics-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(OutputPath)Assets" mkdir "$(OutputPath)Assets"
+xcopy /d /y Assets\* "$(OutputPath)Assets"
+xcopy /y /d "$(SolutionDir)lib\bin\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype\freetype.lib;sfml-graphics-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <PostBuildEvent>
+      <Command>if not exist "$(OutputPath)Assets" mkdir "$(OutputPath)Assets"
+xcopy /d /y Assets\* "$(OutputPath)Assets"
+xcopy /y /d "$(SolutionDir)lib\bin\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

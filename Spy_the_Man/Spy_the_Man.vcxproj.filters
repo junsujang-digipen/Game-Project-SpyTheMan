@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0946a1da-9e1e-4ea8-aaea-86a05fcd3e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{5cd0de60-2eb4-4677-a1f7-1affc3f3ae84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI">
+      <UniqueIdentifier>{f6dd6055-af2b-4e6b-9e0b-d20a643fa6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{8fef5b07-972b-4e3d-9787-25c65b77dfce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sequence">
+      <UniqueIdentifier>{12df792c-6633-4272-8e12-b95af378457f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{56968508-e03a-4504-ac6e-42cf3c4badf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{205ecb1a-d478-4fe1-9c23-309df4f6abee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\IOManager">
+      <UniqueIdentifier>{f96dd662-72a7-4f03-ad70-fe9d3ee24968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\IOManager\lib_json">
+      <UniqueIdentifier>{ef93ea0c-eb43-4fdd-be51-5886fba8ec00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Base_frame">
+      <UniqueIdentifier>{a3bdcbf8-e8a8-4b2c-812c-595c0d854e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sequence">
+      <UniqueIdentifier>{d7717ba9-1b68-4474-badf-cbc53b3bbbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Helper">
+      <UniqueIdentifier>{954aa9df-b625-443f-a75e-b26ee43a84cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager">
+      <UniqueIdentifier>{7a137f04-e20f-4d7f-a53d-ae25b60d4f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Collision">
+      <UniqueIdentifier>{d2d349fe-3998-4c89-b8f4-45a55ff5ddcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphic">
+      <UniqueIdentifier>{cd5bce9c-22ad-47e9-a462-c235f9f5b43d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Engine_part">
+      <UniqueIdentifier>{35f4cdc0-a951-4a18-bdbc-caa721490b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{c43b5caa-ae13-46fb-8258-54e5f7048c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Skill">
+      <UniqueIdentifier>{224280e2-4f17-4fb3-8e34-28f796ace9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Skill">
+      <UniqueIdentifier>{9d97aad2-71e1-4eb5-b34e-ea9a7243b176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\NPC">
+      <UniqueIdentifier>{e40e6b35-5e98-46d5-bb57-3ccd3ee79f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\UI">
+      <UniqueIdentifier>{3f7173d1-1363-4faf-afc9-bea77cc19be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Action">
+      <UniqueIdentifier>{8824c595-e49b-4fe3-ab9b-20dc5a4459d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Component">
+      <UniqueIdentifier>{e0169047-4e00-4622-92b4-d10afbfbe85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{cce3b44d-bc45-43f6-badb-a15e211ff5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Effect">
+      <UniqueIdentifier>{f1d538fe-34c5-44c4-bd2d-2e289035e570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Scene_component">
+      <UniqueIdentifier>{6dda18ee-3002-4acb-bad2-44019c254ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\PlayLevel">
+      <UniqueIdentifier>{948bc8f7-c142-4303-93a8-51ed38baa480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\LevelEditor">
+      <UniqueIdentifier>{4396902f-8502-4801-8c0a-e7ee8f3713ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Game\Object\Key.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Room.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\SideDoor.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Stair.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Vent.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Wall.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\MoveVentSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\NPC_OpenDoorSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\OpenDoorSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\Sequence_example.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\HideSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\KillAISequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\MoveStairSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Building.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Task_AI_basePosition.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Task_AI_pointToPoint.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy_soldier_senior_AI.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy_soldier_AI.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Master_AI.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MainMenu.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Splash.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\IOManager\LevelIOManager.cpp">
+      <Filter>Engine\IOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\IOManager\ObjectData.cpp">
+      <Filter>Engine\IOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\IOManager\lib_json\json_value.cpp">
+      <Filter>Engine\IOManager\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\IOManager\lib_json\json_writer.cpp">
+      <Filter>Engine\IOManager\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\IOManager\lib_json\json_reader.cpp">
+      <Filter>Engine\IOManager\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sequence\SequenceManager.cpp">
+      <Filter>Engine\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sequence\Sequence_base.cpp">
+      <Filter>Engine\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\World.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\NPC_base.cpp">
+      <Filter>Engine\Base_frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>Engine\Base_frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObjectManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameStateManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Collision.cpp">
+      <Filter>Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ShowCollision.cpp">
+      <Filter>Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Poodle.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sprite.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Animation.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Font.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\glslshader.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine\Engine_part</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>Engine\Engine_part</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine\Engine_part</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window.cpp">
+      <Filter>Engine\Engine_part</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Logger.cpp">
+      <Filter>Engine\Engine_part</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TransformMatrix.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SkillChoose.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Skill\SkillManager.cpp">
+      <Filter>Engine\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Skill\SkillBase.cpp">
+      <Filter>Engine\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\GetOutSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\GetInSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Wave.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lazer.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SpeedUp_Sequence.cpp">
+      <Filter>Game\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Basic_NPC.cpp">
+      <Filter>Game\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\TurnOnSoundSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\NPC_Worker_AI.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SpeedUp_Sequence.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\EtcSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Goal.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Entity.cpp">
+      <Filter>Engine\Base_frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UI\Button.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UI\Text.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UI\Image.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UI\UIManager.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UI\Mouse.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UI\UIEntity.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Action\ActionManager.cpp">
+      <Filter>Game\Object\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\GetItemSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Drone.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\DroneSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\ChameleonSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\InvisibleSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\VisualSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\Phone.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Hide_Obj.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Effect\Effect.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Effect\Particle.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Effect\EffectManager.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Clothes.cpp" />
+    <ClCompile Include="Game\Object\Hide_Obj.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Clothes.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Clothes.cpp" />
+    <ClCompile Include="Game\Object\Clothes.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Hide_Obj.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Clothes.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\SilentRunSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Clothes.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\SkillButton.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Clothes.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Action\Action.cpp">
+      <Filter>Game\Object\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\ButtonManager.cpp">
+      <Filter>Game\Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\HelpText.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Clothes.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Trap.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\TrapSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\DashSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\PushSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\Flashbombsequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Push.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Flashbomb.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sequence\FindSequence.cpp">
+      <Filter>Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Find.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ValidManager.cpp">
+      <Filter>Game\Scene\Scene_component</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Clothes.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GSButtonManager.cpp">
+      <Filter>Game\Scene\Scene_component</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Switch.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\Tuto.cpp">
+      <Filter>Game\Scene\PlayLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ClearManager.cpp">
+      <Filter>Game\Scene\Scene_component</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LevelEditor.cpp">
+      <Filter>Game\LevelEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\LoadLevel.cpp">
+      <Filter>Game\Scene\PlayLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Credit.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\ActivateVision.cpp">
+      <Filter>Game\Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LevelSoundManager.cpp">
+      <Filter>Game\Scene\Scene_component</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LevelSelect.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SoundManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\IOManager\ChapterData.cpp">
+      <Filter>Engine\IOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Clothes.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Object\Key.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Room.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\SideDoor.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Stair.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Vent.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Wall.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\MoveVentSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\NPC_OpenDoorSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\OpenDoorSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\Sequence_example.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\HideSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\KillAISequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\MoveStairSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Building.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Task_AI_basePosition.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Task_AI_pointToPoint.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy_soldier_senior_AI.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy_soldier_AI.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Master_AI.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MainMenu.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Screens.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Splash.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\IOManager\LevelIOManager.h">
+      <Filter>Engine\IOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\IOManager\ObjectData.h">
+      <Filter>Engine\IOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\IOManager\lib_json\json_tool.h">
+      <Filter>Engine\IOManager\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sequence\Sequence_base.h">
+      <Filter>Engine\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sequence\SequenceManager.h">
+      <Filter>Engine\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\World.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ComponentSpawner.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AI.h">
+      <Filter>Engine\Base_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FSM_base.h">
+      <Filter>Engine\Base_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\NPC_base.h">
+      <Filter>Engine\Base_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Component.h">
+      <Filter>Engine\Base_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>Engine\Base_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameState.h">
+      <Filter>Engine\Base_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Helper_func_vec.h">
+      <Filter>Engine\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Helper_func_map.h">
+      <Filter>Engine\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ComponentManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameStateManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Collision.h">
+      <Filter>Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ShowCollision.h">
+      <Filter>Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Poodle.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Animation.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\glslshader.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Font.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine\Engine_part</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>Engine\Engine_part</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine\Engine_part</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input_GL.h">
+      <Filter>Engine\Engine_part</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window.h">
+      <Filter>Engine\Engine_part</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Logger.h">
+      <Filter>Engine\Engine_part</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TransformMatrix.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rect.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Declaration.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\GetInSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\GetOutSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SkillType.h">
+      <Filter>Game\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SkillChoose.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Skill\SkillManager.h">
+      <Filter>Engine\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Skill\SkillBase.h">
+      <Filter>Engine\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Wave.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\WorldGuardLevel.h">
+      <Filter>Game\Scene\Scene_component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lazer.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SpeedUp_Sequence.h">
+      <Filter>Game\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Basic_NPC.h">
+      <Filter>Game\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\TurnOnSoundSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\NPC_Worker_AI.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SpeedUp_Sequence.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\EtcSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Goal.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Entity.h">
+      <Filter>Engine\Base_frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UI\Button.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UI\Text.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UI\Image.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UI\UIManager.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UI\Mouse.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UI\UIEntity.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Action\Action.h">
+      <Filter>Game\Object\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Action\ActionManager.h">
+      <Filter>Game\Object\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\GetItemSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Item.h">
+      <Filter>Game\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Drone.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\DroneSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\ChameleonSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\InvisibleSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\VisualSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\Phone.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Effect\Effect.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Effect\Particle.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Effect\EffectManager.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Clothes.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SkillString.h">
+      <Filter>Game\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Clothes.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Hide_Obj.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Clothes.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\SilentRunSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Clothes.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\SkillButton.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Clothes.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\ButtonManager.h">
+      <Filter>Game\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\HelpText.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Clothes.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Trap.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\TrapSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\DashSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\PushSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\FlashbombSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Push.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Flashbomb.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sequence\FindSequence.h">
+      <Filter>Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Find.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ValidManager.h">
+      <Filter>Game\Scene\Scene_component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Clothes.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GSButtonManager.h">
+      <Filter>Game\Scene\Scene_component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Switch.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\Tuto.h">
+      <Filter>Game\Scene\PlayLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ClearManager.h">
+      <Filter>Game\Scene\Scene_component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LevelEditor.h">
+      <Filter>Game\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\LoadLevel.h">
+      <Filter>Game\Scene\PlayLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Credit.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\ActivateVision.h">
+      <Filter>Game\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LevelSoundManager.h">
+      <Filter>Game\Scene\Scene_component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LevelSelect.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SoundManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\IOManager\ChapterData.h">
+      <Filter>Engine\IOManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\IOManager\lib_json\json_valueiterator.inl">
+      <Filter>Engine\IOManager\lib_json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
